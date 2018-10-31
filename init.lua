@@ -13,6 +13,7 @@ minetest.log("action", "[MOD]"..minetest.get_current_modname().." -- start loadi
 
 
 dofile(farming_technic.path .. "/craft.lua")
+dofile(farming_technic.path .. "/technic.lua")
 
 
 
